@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import 'package:flutter_application_2/src/pages/group/group_page.dart';
 import 'package:uuid/uuid.dart';
 

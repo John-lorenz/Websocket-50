@@ -3,7 +3,6 @@ import 'package:flutter_application_2/src/foundation/msg_widget/other_msg_widget
 import 'package:flutter_application_2/src/pages/group/msg_model.dart';
 import 'package:socket_io_client/socket_io_client.dart' as IO;
 import 'package:uuid/uuid.dart';
-
 import '../../foundation/msg_widget/own_msg-widget.dart';
 
 class GroupPage extends StatefulWidget {
@@ -11,6 +10,7 @@ class GroupPage extends StatefulWidget {
   final String userId;
   const GroupPage({Key? key, required this.name, required this.userId})
       : super(key: key);
+      
 
   @override
   State<GroupPage> createState() => _GroupPageState();
